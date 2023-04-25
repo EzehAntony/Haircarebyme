@@ -33,20 +33,20 @@
   position: relative;
 }
 
-.product .bag img {
-  width: 30%;
-  max-width: 45px;
+.product .bag i {
+  border-radius: 0.5rem;
+  font-size: 25px;
   position: absolute;
   background-color: #e6dfdb;
-  border-radius: 50%;
+  color: #444444;
   padding: 0.5rem;
+  -webkit-text-stroke: 1px;
   top: -100%;
-  transition: .4s;
+  transition: 0.4s;
 }
-.product .bag img:hover  {
+.product .bag img:hover {
   background-color: #ff65c3;
 }
-
 
 .product .description {
   display: flex;
@@ -78,12 +78,12 @@
 }
 
 @media (min-width: 800px) {
- .product {
-  margin: 0 2rem;
-  width: 200px;
- }
+  .product {
+    margin: 0 2rem;
+    width: 200px;
+  }
 
- .product > img {
-  height: 210px;
- }
+  .product > img {
+    height: 210px;
+  }
 }

@@ -37,9 +37,9 @@ const Footer = () => {
 
       <div className={styles.cart} onClick={() => router.push("/home/wallet")}>
         {path === "/home/wallet" ? (
-          <img src="/hermes/bag.svg" alt="" />
+          <i class="bi bi-bag-fill"></i>
         ) : (
-          <img src="/hermes/bagFill.svg" alt="" />
+          <i class="bi bi-bag"></i>
         )}
 
         <div className="count">

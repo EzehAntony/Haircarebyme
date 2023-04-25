@@ -18,6 +18,7 @@ const product = () => {
         <p className={styles.price}>₦ 125,000 </p>
 
         <h3 className={styles.description}>
+          <h2>Description</h2>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
           reprehenderit magnam laborum.
         </h3>

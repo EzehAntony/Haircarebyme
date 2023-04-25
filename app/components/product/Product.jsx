@@ -13,7 +13,7 @@ const Product = () => {
     >
       <img src={`/hair/3.jpg`} alt="" />
       <div className={styles.bag}>
-        <img src="/hermes/bagFill.svg" alt="" />
+        <i class="bi bi-bag"></i>
       </div>
       <div className={styles.description}>
         <h3>Rondon Avella</h3>

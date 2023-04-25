@@ -1,3 +1,0 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" nopin="nopin" class="icon icon-arrow-left" aria-hidden="true" width="33"  height="32" ><defs><symbol id="cross" viewBox="0 0 33 32"><path d="M2.5 2.5l27 27m0-27l-27 27" fill-rule="evenodd" stroke-linecap="round" stroke="#444444" stroke-width="3px"></path></symbol></defs>
-            <use xlink:href="#cross" fill="#696969"></use>
-          </svg>

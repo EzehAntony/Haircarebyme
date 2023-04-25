@@ -1,3 +1,0 @@
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" nopin="nopin" class="account-category-icon icon icon-orders" aria-hidden="true" width="24"  height="24" ><defs><symbol id="orders" viewBox="0 0 24 24"><path d="M12.004 4.78l-6.71 2.706v9.03l6.702 2.705 6.71-2.446V7.77l-6.702-2.99zm.484 13.216v-7.33l5.24-1.894v7.352l-5.24 1.872zm2.65-9.3L10.195 6.54l1.8-.728 4.96 2.237-1.82.65zm-6.2-1.65L13.8 9.172l-1.787.638-4.96-2 1.885-.764zm2.574 3.606v7.316l-5.24-2.117V8.538l5.24 2.115z"></path></symbol></defs>
-          <use xlink:href="#orders" fill="#696969"></use>
-        </svg>
