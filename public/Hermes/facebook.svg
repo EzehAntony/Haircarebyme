@@ -1,0 +1,3 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" nopin="nopin" aria-hidden="true" role="presentation" focusable="false" class="icon icon-facebook" width="24"  height="24" ><defs><symbol id="facebook" viewBox="0 0 12 20"><path d="M7.14 20v-9.123h3.243l.486-3.555h-3.73v-2.27c0-1.03.304-1.731 1.867-1.731L11 3.32V.14A28.285 28.285 0 008.095 0C5.22 0 3.252 1.657 3.252 4.7v2.622H0v3.555h3.251V20H7.14z"></path></symbol></defs>
+              <use xlink:href="#facebook" fill="#696969"></use>
+            </svg>

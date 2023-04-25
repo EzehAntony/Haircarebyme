@@ -1,0 +1,141 @@
+.productpage {
+  min-height: 100vh;
+  width: 100%;
+  padding-bottom: 70px;
+  background-color: #fff;
+}
+
+.mainImg {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.productpage .slider {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.productpage .slider img {
+  margin: 0 0.5rem;
+  width: 100%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+
+.productpage .title {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem 1rem 1rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.productpage .title h3 {
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.productpage .title button {
+  background-color: black;
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  border-radius: 0.4rem;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.productpage .title button h3 {
+  text-transform: capitalize;
+  margin: 0 5px 0 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.productpage .title button i {
+  font-size: 25px;
+  color: #ff65c3;
+  padding-right: 10px;
+}
+
+.productpage .description {
+  color: black;
+  padding: 0 1rem;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.productpage .category {
+  padding: 0 1rem;
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.productpage .category h1 {
+  font-size: 20px;
+  color: #ff65c3;
+}
+.productpage .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.swiper {
+  width: 100%;
+  padding: 2rem 0;
+}
+
+.swiperslide {
+  width: auto;
+  cursor: pointer;
+}
+
+@media (min-width: 800px) {
+  .productpage {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    padding-bottom: 70px;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .productpage .other {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+    height: 100vh;
+    overflow-y: scroll;
+  }
+
+  .productpage .title h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .productpage .image {
+    width: 50%;
+    border-radius: 10px;
+  }
+
+  .productpage .mainImg {
+    height: 400px;
+    width: 500px;
+    border-radius: 1rem;
+  }
+}

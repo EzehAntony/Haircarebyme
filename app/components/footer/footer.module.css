@@ -1,0 +1,40 @@
+.footer {
+  position: fixed;
+  bottom: 10px;
+  border-radius: 50px;
+  background-color: #e6dfdb;
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 400px;
+  z-index: 500;
+  height: 70px;
+}
+
+.footer i {
+  color: #ff3387;
+  font-size: 30px;
+  cursor: pointer;
+  -webkit-text-stroke: 1px;
+  user-select: none;
+}
+
+.footer .cart {
+  display: flex;
+  position: relative;
+}
+
+.footer .cart h3 {
+  position: absolute;
+  top: -0.4rem;
+  right: -0.4rem;
+  font-size: 20px;
+  background-color: #f6f1eb;
+  padding: 0 0.3rem;
+  border-radius: 50px;
+}
+
+.footer div:nth-of-type(4) img {
+  width: 40px;
+}

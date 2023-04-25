@@ -1,0 +1,3 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" nopin="nopin" class="btn close icon icon-close search-shrink" aria-hidden="true" focusable="false" width="24"  height="24" ><defs><symbol id="close" viewBox="0 0 24 24"><path stroke="#444444" d="M2 2l20 20m0-20L2 22"></path></symbol></defs>
+              <use xlink:href="#close" fill="#696969"></use>
+            </svg>

@@ -1,0 +1,3 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" nopin="nopin" class="icon-exclamation" aria-hidden="true" focusable="false" width="13"  height="13" ><defs><symbol id="exclamation-mark" viewBox="0 0 13 13"><circle id="Oval" class="cls-1" cx="6.5" cy="9.5" r="1" fill="#9D2A1E"></circle><path id="Rectangle" class="cls-1" d="M7 8a1 1 0 01-1-1V5a1 1 0 011-1 1 1 0 011 1v2a1 1 0 01-1 1z" transform="translate(-.5 -.5)" fill="#9D2A1E"></path><circle cx="6.5" cy="6.5" r="6" fill="none" stroke="#9D2A1E"></circle></symbol></defs>
+        <use xlink:href="#exclamation-mark"></use>
+      </svg>
