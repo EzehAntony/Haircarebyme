@@ -10,27 +10,22 @@ const product = () => {
     <div className={styles.productpage}>
       <div className={styles.image}>
         <img src="/hair/3.jpg" className={styles.mainImg} alt="" />
-        <div className={styles.slider}>
-          <img src="/hair/2.jpg" alt="" />
-          <img src="/hair/4.jpg" alt="" />
-          <img src="/hair/5.jpg" alt="" />
-          <img src="/hair/6.jpg" alt="" />
-        </div>
       </div>
       <div className={styles.other}>
         <div className={styles.title}>
           <h3>Atlas Crosspin wine </h3>
-          <button onClick={() => router.push("/home/product/buy")}>
-            <i class="bi bi-bag"></i>
-            <h3>buy</h3>
-          </button>
         </div>
+        <p className={styles.price}>₦ 125,000 </p>
 
         <h3 className={styles.description}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam
           reprehenderit magnam laborum.
         </h3>
 
+        <button onClick={() => router.push("/home/product/buy")}>
+          <i class="bi bi-bag"></i>
+          <h3>Add to cart</h3>
+        </button>
         <div className={styles.category}>
           <h1>More from this category</h1>
 
