@@ -35,8 +35,11 @@ const Footer = () => {
         )}
       </div>
 
-      <div className={styles.cart} onClick={() => router.push("/home/wallet")}>
-        {path === "/home/wallet" ? (
+      <div
+        className={styles.cart}
+        onClick={() => router.push("/home/product/buy")}
+      >
+        {path === "/home/product/buy" ? (
           <i class="bi bi-bag-fill"></i>
         ) : (
           <i class="bi bi-bag"></i>
